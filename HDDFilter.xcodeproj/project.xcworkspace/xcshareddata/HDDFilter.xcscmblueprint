@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "72ABBD10A56A3E2B5CD12FF1E0D71D31E532A4AF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "72ABBD10A56A3E2B5CD12FF1E0D71D31E532A4AF" : 9223372036854775807,
+    "0A10A05FA17EF4CD5DD9E00FF750F0422B9488CE" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F82468E1-1376-4AFA-B735-84392E7F0492",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "72ABBD10A56A3E2B5CD12FF1E0D71D31E532A4AF" : "HDDFilter\/",
+    "0A10A05FA17EF4CD5DD9E00FF750F0422B9488CE" : "HDDFilter\/Frameworks\/GPUImage2\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "HDDFilter",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "HDDFilter.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/BradLarson\/GPUImage2.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0A10A05FA17EF4CD5DD9E00FF750F0422B9488CE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/hoangdado\/HDDFilter.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "72ABBD10A56A3E2B5CD12FF1E0D71D31E532A4AF"
+    }
+  ]
+}

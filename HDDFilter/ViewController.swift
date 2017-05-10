@@ -7,12 +7,31 @@
 //
 
 import UIKit
+import GPUImage
+import AVFoundation
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var renderView: RenderView!
+    var camera: Camera!
+    let filter = SepiaToneFilter()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    
+        do {
+            camera = try Camera(sessionPreset: AVCaptureSessionPresetHigh)
+            
+//            camera.delegate = self as? CameraDelegate
+            
+            camera --> filter
+            
+            filter --> renderView
+            
+            camera.startCapture()
+        } catch {
+            fatalError("Could not initialize filter pipeline");
+        }
     }
 
     override func didReceiveMemoryWarning() {
